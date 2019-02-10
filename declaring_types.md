@@ -150,9 +150,7 @@ listOfMyObjects: MyObject[]
 Sometimes you will have interfaces that can return an `Array` of multiple types. In this case we stop using the `[]` notation and use the `Array<>` notation instead:
 
 ```typescript
-result: Array<
-    OneInterface | AnotherInterface | AThirdInterface
-  >
+result: Array<OneInterface | AnotherInterface | AThirdInterface>
 ```
 
 # Hard - Functions
