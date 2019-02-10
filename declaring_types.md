@@ -211,7 +211,7 @@ onClick = (event) => {
 }
 ```
 
-Often in React however, what we want more than the object is some bit of state passed along.
+Often in React however, what we want more than the **event** object is some bit of state passed along.
 
 ```typescript
 <SomeComponent onClick={onClick(this.state.id)} />
