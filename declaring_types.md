@@ -9,9 +9,12 @@ const count:number = 3
 But in React you usually need to declare the types in an interface:
 
 ```typescript
-interface MyReactState {
+interface MyReactProps {
   count: number
 }
+
+// sample stateless component
+const Header: React.SFC<MyReactProps> = ({count}) => <h2>{count}</h2>
 ```
 
 Below are some common of examples of things you will have to type, and ways to go about declaring the type.
