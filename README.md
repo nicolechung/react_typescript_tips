@@ -4,7 +4,7 @@ This is a collection of cheat sheets and troubleshooting tips for a typical Reac
 
 [Declaring Types](declaring_types.md)
 
-[Aliases, a.k.a folder shortcuts](folder_shortcuts)
+[Aliases, a.k.a folder shortcuts](folder_shortcuts.md)
 
 
 
