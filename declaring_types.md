@@ -19,6 +19,8 @@ const Header: React.SFC<MyReactProps> = ({count}) => <h2>{count}</h2>
 
 Below are some common of examples of things you will have to type, and ways to go about declaring the type.
 
+I noticed that people new to Typescript usually don't have problems with typing primitives (i.e. numbers and strings). Usually the hard things to learn to type are things like curried functions, arrays of custom objects, and objects with unknown keys. So I've sorted these into "Easy" and "Hard"
+
 # Easy
 
 ## Numbers:
@@ -108,7 +110,7 @@ children?:
     | Array<JSX.Element | JSX.Element[] | string>
 ```
 
-# Medium - Arrays
+# Hard - Arrays
 
 ## Array of numbers
 ```typescript
@@ -153,7 +155,7 @@ result: Array<
   >
 ```
 
-# Medium - Functions
+# Hard - Functions
 
 This is how you would type a function that doesn't have any parameters and does not return anything:
 
@@ -258,7 +260,7 @@ result: () => Promise<JSON>
 ```
 
 
-# Medium - Objects
+# Hard - Objects
 
 ## Objects with unknown key/value pairs
 Sometimes you have objects where you don't know the key names up front (maybe just the values). In this case it's still handy to have a broad type like this:
