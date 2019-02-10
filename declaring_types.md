@@ -263,13 +263,20 @@ result: () => Promise<JSON>
 # Hard - Objects
 
 ## Objects with unknown key/value pairs
-Sometimes you have objects where you don't know the key names up front (maybe just the values). In this case it's still handy to have a broad type like this:
+Sometimes you have objects where you don't know the key names up front (maybe just the values). In cases like this it's useful to use Typescripts [Indexable Types] (https://www.typescriptlang.org/docs/handbook/interfaces.html#indexable-types):
 
 ```typescript
-export interface EventLabel {
-  [key: string]: number
+interface EventLabel {
+  // [key: string] is an indexable type!
+  [key: string]: string
+}
+
+const labels:EventLabel = {
+  monday: 'some description',
+  tuesday: 'some other description'
 }
 ```
+
 ## Objects with functions as values
 Another case is typing an `object` that is really a list of functions that all return the same data type:
 
