@@ -6,5 +6,6 @@ This is a collection of cheat sheets and troubleshooting tips for a typical Reac
 
 [Aliases, a.k.a folder shortcuts](folder_shortcuts.md)
 
+[Deciphering error messages](reading_errors.md)
 
 
