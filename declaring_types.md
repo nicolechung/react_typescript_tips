@@ -263,7 +263,7 @@ result: () => Promise<JSON>
 # Hard - Objects
 
 ## Objects with unknown key/value pairs
-Sometimes you have objects where you don't know the key names up front (maybe just the values). In cases like this it's useful to use Typescripts [Indexable Types] (https://www.typescriptlang.org/docs/handbook/interfaces.html#indexable-types):
+Sometimes you have objects where you don't know the key names up front (maybe just the values). In cases like this it's useful to use Typescripts [Indexable Types](https://www.typescriptlang.org/docs/handbook/interfaces.html#indexable-types):
 
 ```typescript
 interface EventLabel {
