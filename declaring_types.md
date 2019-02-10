@@ -18,7 +18,7 @@ Below are some common of examples of things you will have to type, and ways to g
 
 # Easy
 
-Numbers:
+## Numbers:
 
 ```typescript
 // assignment:
@@ -28,7 +28,7 @@ count = 1
 count:number
 ```
 
-Strings:
+## Strings:
 
 ```typescript
 // assignment:
@@ -38,7 +38,7 @@ name = 'Nicole'
 name:string
 ```
 
-Number or a string:
+## Number or a string:
 
 ```typescript
 count: number | string
@@ -49,9 +49,9 @@ It can also be a number or a specific string (useful for css):
 height: number | 'auto'
 ```
 
-Dates:
+## Dates
 
-Dates are often stored as numbers
+Dates are often stored as numbers:
 
 ```typescript
 date: number
@@ -63,7 +63,7 @@ Then this can be used like
 date = Date.now()
 ```
 
-Dates stored as strings
+Dates stored as strings:
 
 ```typescript
 // assignment
@@ -83,13 +83,13 @@ import moment from 'moment'
 lastPublishedDate: moment.Moment
 ```
 
-React components:
+## React components:
 
 ```typescript
 title: JsxElement
 ```
 
-React `children`:
+## React `children`:
 
 ```typescript
 children: React.ReactNode
