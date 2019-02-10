@@ -14,7 +14,7 @@ The error message is hard to read because there is no colour coding - Typescript
 ### Some tips to read Typescript errors:
 1. Usually you can safely ignore the first sentence, it's just telling you that you have an error.
 2. Scan for the `property` which has an error, in the case above it's the property named `result`.
-3. Look up the error code in square brackets, in this case it's `[2721]`.
+3. Google the error code in square brackets, in this case it's `[2721]`. Often this will pull up a bunch of StackOverflow questions where people have the same problem.
 4. If a line error is given, look at that line.
 
 ### Example 1
