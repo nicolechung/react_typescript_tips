@@ -26,6 +26,7 @@ interface MySpecialProps {
   id: string,
   specialType: string
 }
+
 export function generateResult(id:string): MySpecialProps {
   const { id, specialType } = this.state.results[id]
 
@@ -46,6 +47,7 @@ interface MySpecialProps {
   id: string,
   specialType: string
 }
+
 export function generateResult(id:string): MySpecialProps {
   const { result, id, specialType } = this.state.results[id]
 
