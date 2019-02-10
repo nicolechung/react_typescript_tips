@@ -1,4 +1,4 @@
-# Typescript: Interfaces and React
+# Declaring types with Typescript in React
 
 A lot of typescript examples explain how to type a `const` in this format:
 
