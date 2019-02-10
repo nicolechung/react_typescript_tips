@@ -4,7 +4,7 @@ Typescript error messages are hard to read.
 
 Oftentimes you will see something like this:
 
-```typescript
+```
 Argument of type '{ specialType: string; id: string; }' is not assignable to parameter of type 'MySpecialProps'.
   Property 'result' is missing in type '{ specialType: string; id: string; }' but required in type 'MySpecialProps'. [2741]
 ```
@@ -40,6 +40,7 @@ We see that the function `generateResult` should return an object that uses the 
 
 Adding that property makes the error go away:
 
+```typescript
 interface MySpecialProps {
   result: JSON,
   id: string,
@@ -54,6 +55,7 @@ export function generateResult(id:string): MySpecialProps {
     result: JSON.stringify(result)
   }
 }
+```
 
 ### Example 2
 
